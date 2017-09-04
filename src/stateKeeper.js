@@ -1,5 +1,5 @@
 import createAction from './createAction';
-import { Action } from "./types";
+import { Action } from './types';
 
 let currentState = {};
 

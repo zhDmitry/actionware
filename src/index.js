@@ -17,6 +17,8 @@ export { mockCallWith } from './call';
 export { successType } from './createAction';
 export { errorType } from './createAction';
 export { busyType } from './createAction';
-
 export { next } from './next';
 export { mockNextWith } from './next';
+
+export { default as createAction } from './createAction';
+export { default as createActions } from './createActions';

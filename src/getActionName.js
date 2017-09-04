@@ -1,4 +1,4 @@
-import { Action } from "./types";
+import { Action } from './types';
 const actionNames: any = {};
 
 export default function (prefix: string, name: string = 'anonymous', action: Action): string {
